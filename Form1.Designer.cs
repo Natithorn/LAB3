@@ -52,6 +52,7 @@
             this.Hight = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Grade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Major = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,7 +182,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 38);
             this.button1.TabIndex = 14;
-            this.button1.Text = "Clear";
+            this.button1.Text = "Clear Infor";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -247,11 +248,22 @@
             this.Major.HeaderText = "Major";
             this.Major.Name = "Major";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(385, 244);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 36);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Clear Coll";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 311);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -304,5 +316,6 @@
         private DataGridViewTextBoxColumn Hight;
         private DataGridViewTextBoxColumn Grade;
         private DataGridViewTextBoxColumn Major;
+        private Button button3;
     }
 }

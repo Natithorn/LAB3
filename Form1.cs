@@ -48,7 +48,7 @@ namespace LAB3
             textBoxHight.Text = "";
             textBoxGrade.Text = "";
             textBoxMajor.Text = "";
-            dataGridView1.Rows.Clear();
+            
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -67,6 +67,11 @@ namespace LAB3
                                          ,int.Parse(textBoxHight.Text),int.Parse(textBoxGrade.Text),textBoxMajor.Text) { };
             std.AddData(dataGridView1);
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
         }
     }
 }
