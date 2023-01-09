@@ -29,6 +29,12 @@ namespace LAB3
             this.age = age;
             this.birthdat = birthdat;
         }
+        public void AddData(DataGridView grid)
+        {
+            grid.Rows.Add(name, id, age, birthdat, Hight, grade, major);
+        }
+
+
 
 
 
