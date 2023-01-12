@@ -73,5 +73,10 @@ namespace LAB3
         {
             dataGridView1.Rows.Clear();
         }
+
+        private void Showbut_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
