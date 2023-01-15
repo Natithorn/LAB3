@@ -6,7 +6,8 @@ namespace LAB3
 {
     public partial class Form1 : Form
     {
-        //List<Student> student; = new List<Student> students;
+        //List<Student> student; = new List<Student> Students;
+        List<double> Gradeall = new List<double>();
         public Form1()
         {
             InitializeComponent();
@@ -63,10 +64,20 @@ namespace LAB3
             //"เกรดเฉลี่ย", textBoxGrade.Text,
             //"สาขา", textBoxMajor.Text));
 
-            Student std = new Student(textBoxName1.Text,textBoxName2.Text,int.Parse(textBoxName3.Text),int.Parse(textBoxName4.Text)
-                                         ,int.Parse(textBoxHight.Text),int.Parse(textBoxGrade.Text),textBoxMajor.Text) { };
+            Student std = new Student(textBoxName1.Text, textBoxName2.Text, int.Parse(textBoxName3.Text), int.Parse(textBoxName4.Text)
+                                         , int.Parse(textBoxHight.Text), int.Parse(textBoxGrade.Text), textBoxMajor.Text) { 
+            
+                  
+           
+            };
             std.AddData(dataGridView1);
+            Gradeall.Sort();
 
+
+            textBoxGrade.Text = Gradeall.Last().ToString();
+            textBoxGrade.Text = Gradeall.Last().ToString();
+            
+        
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -76,7 +87,8 @@ namespace LAB3
 
         private void Showbut_Click(object sender, EventArgs e)
         {
-            
+           
+
         }
     }
 }
