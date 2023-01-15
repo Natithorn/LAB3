@@ -15,6 +15,9 @@ namespace LAB3
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            MaxGrade.Text = "§–·ππ¡“° ÿ¥ 0";
+            MinGrade.Text = "§–·ππ¡“° ÿ¥ 0";
             //Create Student Object
             //Student name1 = new Student("Robert", "233312", 20, 2002, 167, 3.88, "CIS");
             //Student name2 = new Student("Rose", "233412", 21, 2001, 175, 3.45, "DS");
@@ -67,7 +70,13 @@ namespace LAB3
             Student std = new Student(textBoxName1.Text, textBoxName2.Text, int.Parse(textBoxName3.Text), int.Parse(textBoxName4.Text)
                                          , int.Parse(textBoxHight.Text), double.Parse(textBoxGrade.Text), textBoxMajor.Text) { };
             std.AddData(dataGridView1);
-           
+            Gradeall.Add(std.grade);
+            Gradeall.Sort();
+
+
+            MaxGrade.Text = "§–·ππ¡“° ÿ¥ " + Gradeall.Last().ToString();
+            MinGrade.Text = "§–·πππÈÕ¬ ÿ¥ " + Gradeall.First().ToString();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -77,13 +86,6 @@ namespace LAB3
 
         private void Showbut_Click(object sender, EventArgs e)
         {
-            Student student = new Student(double.Parse(textBoxGrade.Text));
-            Gradeall.Add(student.grade);
-
-            Gradeall.Sort();
-
-            MessageBox.Show(textBoxGrade.Text = Gradeall.Last().ToString());
-            MessageBox.Show(textBoxGrade.Text = Gradeall.Last().ToString());
         }
     }
 }

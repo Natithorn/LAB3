@@ -8,9 +8,9 @@ namespace LAB3
 {
     internal class Student
     {
-      public  string name;
-       public string id;
-       public int age;
+        public  string name;
+        public string id;
+        public int age;
         public int birthdat;
         public int Hight;
         public double grade;

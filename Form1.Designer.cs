@@ -54,141 +54,143 @@
             this.Major = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button3 = new System.Windows.Forms.Button();
             this.Showbut = new System.Windows.Forms.Button();
+            this.MaxGrade = new System.Windows.Forms.TextBox();
+            this.MinGrade = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxName1
             // 
-            this.textBoxName1.Location = new System.Drawing.Point(81, 29);
-            this.textBoxName1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBoxName1.Location = new System.Drawing.Point(101, 36);
+            this.textBoxName1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.textBoxName1.Name = "textBoxName1";
-            this.textBoxName1.Size = new System.Drawing.Size(93, 27);
+            this.textBoxName1.Size = new System.Drawing.Size(115, 31);
             this.textBoxName1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 33);
+            this.label1.Location = new System.Drawing.Point(40, 41);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 20);
+            this.label1.Size = new System.Drawing.Size(59, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Name";
             // 
             // textBoxName2
             // 
-            this.textBoxName2.Location = new System.Drawing.Point(81, 80);
-            this.textBoxName2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxName2.Location = new System.Drawing.Point(101, 100);
+            this.textBoxName2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName2.Name = "textBoxName2";
-            this.textBoxName2.Size = new System.Drawing.Size(93, 27);
+            this.textBoxName2.Size = new System.Drawing.Size(115, 31);
             this.textBoxName2.TabIndex = 2;
             // 
             // textBoxName3
             // 
-            this.textBoxName3.Location = new System.Drawing.Point(81, 135);
-            this.textBoxName3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxName3.Location = new System.Drawing.Point(101, 169);
+            this.textBoxName3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName3.Name = "textBoxName3";
-            this.textBoxName3.Size = new System.Drawing.Size(93, 27);
+            this.textBoxName3.Size = new System.Drawing.Size(115, 31);
             this.textBoxName3.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 84);
+            this.label3.Location = new System.Drawing.Point(52, 105);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 20);
+            this.label3.Size = new System.Drawing.Size(30, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "ID";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 139);
+            this.label4.Location = new System.Drawing.Point(39, 174);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 20);
+            this.label4.Size = new System.Drawing.Size(44, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Age";
             // 
             // textBoxName4
             // 
-            this.textBoxName4.Location = new System.Drawing.Point(81, 191);
-            this.textBoxName4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxName4.Location = new System.Drawing.Point(101, 239);
+            this.textBoxName4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName4.Name = "textBoxName4";
-            this.textBoxName4.Size = new System.Drawing.Size(93, 27);
+            this.textBoxName4.Size = new System.Drawing.Size(115, 31);
             this.textBoxName4.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 195);
+            this.label5.Location = new System.Drawing.Point(8, 244);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 20);
+            this.label5.Size = new System.Drawing.Size(93, 25);
             this.label5.TabIndex = 7;
             this.label5.Text = "Birth Years";
             // 
             // textBoxHight
             // 
-            this.textBoxHight.Location = new System.Drawing.Point(81, 241);
-            this.textBoxHight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxHight.Location = new System.Drawing.Point(101, 301);
+            this.textBoxHight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxHight.Name = "textBoxHight";
-            this.textBoxHight.Size = new System.Drawing.Size(93, 27);
+            this.textBoxHight.Size = new System.Drawing.Size(115, 31);
             this.textBoxHight.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 252);
+            this.label2.Location = new System.Drawing.Point(26, 315);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.Size = new System.Drawing.Size(56, 25);
             this.label2.TabIndex = 9;
             this.label2.Text = "Hight";
             // 
             // textBoxGrade
             // 
-            this.textBoxGrade.Location = new System.Drawing.Point(81, 293);
-            this.textBoxGrade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxGrade.Location = new System.Drawing.Point(101, 366);
+            this.textBoxGrade.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxGrade.Name = "textBoxGrade";
-            this.textBoxGrade.Size = new System.Drawing.Size(93, 27);
+            this.textBoxGrade.Size = new System.Drawing.Size(115, 31);
             this.textBoxGrade.TabIndex = 10;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 304);
+            this.label6.Location = new System.Drawing.Point(26, 380);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 20);
+            this.label6.Size = new System.Drawing.Size(59, 25);
             this.label6.TabIndex = 11;
             this.label6.Text = "Grade";
             // 
             // textBoxMajor
             // 
-            this.textBoxMajor.Location = new System.Drawing.Point(81, 345);
-            this.textBoxMajor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxMajor.Location = new System.Drawing.Point(101, 431);
+            this.textBoxMajor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxMajor.Name = "textBoxMajor";
-            this.textBoxMajor.Size = new System.Drawing.Size(93, 27);
+            this.textBoxMajor.Size = new System.Drawing.Size(115, 31);
             this.textBoxMajor.TabIndex = 12;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 356);
+            this.label7.Location = new System.Drawing.Point(26, 445);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 20);
+            this.label7.Size = new System.Drawing.Size(58, 25);
             this.label7.TabIndex = 13;
             this.label7.Text = "Major";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(312, 324);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(390, 405);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 51);
+            this.button1.Size = new System.Drawing.Size(141, 64);
             this.button1.TabIndex = 14;
             this.button1.Text = "Clear Infor";
             this.button1.UseVisualStyleBackColor = true;
@@ -196,10 +198,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(182, 317);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(228, 396);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 59);
+            this.button2.Size = new System.Drawing.Size(141, 74);
             this.button2.TabIndex = 15;
             this.button2.Text = "Click";
             this.button2.UseVisualStyleBackColor = true;
@@ -216,12 +218,12 @@
             this.Hight,
             this.Grade,
             this.Major});
-            this.dataGridView1.Location = new System.Drawing.Point(192, 29);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(240, 36);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(847, 239);
+            this.dataGridView1.Size = new System.Drawing.Size(1059, 299);
             this.dataGridView1.TabIndex = 16;
             // 
             // Name
@@ -275,10 +277,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(440, 325);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Location = new System.Drawing.Point(550, 406);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 48);
+            this.button3.Size = new System.Drawing.Size(142, 60);
             this.button3.TabIndex = 17;
             this.button3.Text = "Clear Coll";
             this.button3.UseVisualStyleBackColor = true;
@@ -286,19 +288,38 @@
             // 
             // Showbut
             // 
-            this.Showbut.Location = new System.Drawing.Point(598, 327);
+            this.Showbut.Location = new System.Drawing.Point(713, 408);
+            this.Showbut.Margin = new System.Windows.Forms.Padding(4);
             this.Showbut.Name = "Showbut";
-            this.Showbut.Size = new System.Drawing.Size(124, 45);
+            this.Showbut.Size = new System.Drawing.Size(155, 56);
             this.Showbut.TabIndex = 18;
             this.Showbut.Text = "Show inf.";
             this.Showbut.UseVisualStyleBackColor = true;
             this.Showbut.Click += new System.EventHandler(this.Showbut_Click);
             // 
+            // MaxGrade
+            // 
+            this.MaxGrade.Location = new System.Drawing.Point(971, 374);
+            this.MaxGrade.Name = "MaxGrade";
+            this.MaxGrade.ReadOnly = true;
+            this.MaxGrade.Size = new System.Drawing.Size(150, 31);
+            this.MaxGrade.TabIndex = 19;
+            // 
+            // MinGrade
+            // 
+            this.MinGrade.Location = new System.Drawing.Point(971, 416);
+            this.MinGrade.Name = "MinGrade";
+            this.MinGrade.ReadOnly = true;
+            this.MinGrade.Size = new System.Drawing.Size(150, 31);
+            this.MinGrade.TabIndex = 20;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1053, 415);
+            this.ClientSize = new System.Drawing.Size(1167, 519);
+            this.Controls.Add(this.MinGrade);
+            this.Controls.Add(this.MaxGrade);
             this.Controls.Add(this.Showbut);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
@@ -318,7 +339,7 @@
             this.Controls.Add(this.textBoxName2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxName1);
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -355,5 +376,7 @@
         private DataGridViewTextBoxColumn Major;
         private Button button3;
         private Button Showbut;
+        private TextBox MaxGrade;
+        private TextBox MinGrade;
     }
 }
