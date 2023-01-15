@@ -65,19 +65,9 @@ namespace LAB3
             //"สาขา", textBoxMajor.Text));
 
             Student std = new Student(textBoxName1.Text, textBoxName2.Text, int.Parse(textBoxName3.Text), int.Parse(textBoxName4.Text)
-                                         , int.Parse(textBoxHight.Text), int.Parse(textBoxGrade.Text), textBoxMajor.Text) { 
-            
-                  
-           
-            };
+                                         , int.Parse(textBoxHight.Text), double.Parse(textBoxGrade.Text), textBoxMajor.Text) { };
             std.AddData(dataGridView1);
-            Gradeall.Sort();
-
-
-            textBoxGrade.Text = Gradeall.Last().ToString();
-            textBoxGrade.Text = Gradeall.Last().ToString();
-            
-        
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -87,8 +77,13 @@ namespace LAB3
 
         private void Showbut_Click(object sender, EventArgs e)
         {
-           
+            Student student = new Student(double.Parse(textBoxGrade.Text));
+            Gradeall.Add(student.grade);
 
+            Gradeall.Sort();
+
+            MessageBox.Show(textBoxGrade.Text = Gradeall.Last().ToString());
+            MessageBox.Show(textBoxGrade.Text = Gradeall.Last().ToString());
         }
     }
 }
